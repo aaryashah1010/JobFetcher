@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Job Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Job Tracker</h1>
+    <div class="controls">
+      <input id="search" type="search" placeholder="Search title or company..." />
+      <select id="sourceFilter">
+        <option value="">All sources</option>
+      </select>
+      <span id="count" class="count"></span>
+    </div>
+  </header>
+
+  <main>
+    <table id="jobsTable">
+      <thead>
+        <tr>
+          <th></th>
+          <th>Title</th>
+          <th>Company</th>
+          <th>Location</th>
+          <th>Source</th>
+          <th>First seen</th>
+        </tr>
+      </thead>
+      <tbody id="jobsBody"></tbody>
+    </table>
+    <p id="emptyState" class="empty-state" hidden>No jobs match your filters yet.</p>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

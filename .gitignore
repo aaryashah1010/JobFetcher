@@ -1,0 +1,11 @@
+node_modules/
+.env
+.claude/
+storage/jobs.db-journal
+storage/jobs.db-wal
+storage/jobs.db-shm
+*.log
+
+# storage/jobs.db is intentionally NOT ignored: the GitHub Actions workflow
+# commits it back to the repo each run so `git pull` gives you the latest
+# jobs locally for the dashboard.

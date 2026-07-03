@@ -1,0 +1,24 @@
+{
+  "keywords": [
+    "SDE",
+    "Software Engineer",
+    "Software Development Engineer",
+    "Backend",
+    "Back-end",
+    "AI",
+    "ML",
+    "Machine Learning",
+    "Artificial Intelligence"
+  ],
+  "locations": [
+    "India",
+    "Remote"
+  ],
+  "sources": {
+    "arbeitnow": { "enabled": true },
+    "remoteok": { "enabled": true },
+    "adzuna": { "enabled": false, "country": "in", "resultsPerPage": 50 },
+    "jooble": { "enabled": false, "keywords": "software engineer", "location": "India" },
+    "linkedin_gmail": { "enabled": false, "query": "from:jobalerts-noreply@linkedin.com newer_than:1d" }
+  }
+}

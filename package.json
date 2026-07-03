@@ -1,0 +1,16 @@
+{
+  "name": "job-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Job opening tracker with dashboard + Telegram alerts for SDE/Backend/AI-ML roles",
+  "type": "commonjs",
+  "scripts": {
+    "fetch": "node scheduler/run.js",
+    "dashboard": "node dashboard/server.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.3.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0"
+  }
+}
